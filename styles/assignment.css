@@ -47,6 +47,12 @@ header {
     height: 54px;
     left: 460px;
     top: 408px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
 }
 
 .my {
@@ -94,18 +100,143 @@ header {
 }
 
 .My-Plans {
-    width: 200px;
-    height: 60px;
-    margin-left: 765px;
+    width: 1080px;
     margin-top: 992px;
 }
 
-.My-Plans h2 {
+.My-Plans h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 40px;
     line-height: 1.2em;
-    text-align: center;
     color: #151414;
+    margin-left: 670px ;
+}
 
+.devolape {
+    width: 1141px;
+    height: 202.96px;
+    margin-left: 190px;
+    margin-top: 89px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.planfour {
+    text-align: center;
+}
+
+.planfour h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.planfour p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+    margin-top: 20px;
+}
+
+.cta {
+    background-image: url(../images/watch.png);
+    background-color: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 80px;
+    border-radius: 8px;
+}
+
+.cta h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    color: #FFFFFF;
+    width: 459px;
+    margin-left: 94px;
+    margin-top: 66px;
+}
+
+.cta-button {
+    width: 160px;
+    height: 54px;
+    margin-left: 94px;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+}
+
+footer {
+    background: #151414;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2600px;
+}
+
+.footerr {
+    display: flex;
+    width: 1100px;
+    margin-left: 224px;
+    margin-top: 156px;
+}
+
+.footerr h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.footerr p {
+    width: 400px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footerr a {
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.Subscribe h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 454px;
+}
+
+.Subscribe input {
+    margin-left: 454px;
+    margin-top: 20px;
+    width: 325px;
+    height: 44px;
+    font-size: 15px;
+}
+
+.Subscribe button {
+    margin-left: 454px;
+    margin-top: 20px;
 }
